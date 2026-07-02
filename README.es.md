@@ -50,9 +50,7 @@ Durante el ejercicio, cread un archivo Markdown personal, por ejemplo llamado pr
 - la estructura que decidáis construir,
 - y los cambios que vayáis aplicando al código.
 
-Esto os ayuda a evitar prompts vagos como: "haz una página de Juego de Tronos como esta foto". En su lugar, intentad prompts más concretos, como:
-
-> Ayúdame a estructurar un proyecto web en HTML, CSS y JavaScript para una landing page de estilo cinematográfico. Quiero que el código se divida por responsabilidades: HTML para la estructura, CSS para los estilos, JS para la interactividad y un archivo de datos para los finales alternativos. Quiero una solución limpia, organizada y fácil de mantener.
+Esto os ayuda a evitar prompts vagos como: "haz una página de Juego de Tronos como esta foto". En su lugar, intentad prompts más concretos, que cada uno aborde un problema.
 
 ## 🧠 Prompt de IA para estructurar el proyecto
 
