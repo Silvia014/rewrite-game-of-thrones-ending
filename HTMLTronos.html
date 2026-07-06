@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reescribe el final</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;900&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="CSSTronos.css" />
+</head>
+<body>
+  <header class="site-header">
+    <span class="brand-mark" aria-hidden="true">
+      <svg viewBox="0 0 40 40" width="22" height="22">
+        <path d="M20 2 L36 20 L20 38 L4 20 Z" fill="none" stroke="currentColor" stroke-width="1.4"/>
+        <circle cx="20" cy="20" r="4" fill="currentColor"/>
+      </svg>
+    </span>
+    <span class="brand-name">Reescribe el final</span>
+  </header>
+
+  <main>
+
+    <section id="hero">
+      <div class="hero-ember" aria-hidden="true"></div>
+      <div class="hero-content">
+        <p class="eyebrow">Un ejercicio de siete respuestas</p>
+        <h1>Reescribe<br />el final</h1>
+        <p class="hero-copy">
+          Ocho temporadas terminaron en un solo trono. Responde como
+          gobernarías tú y descubre qué destino te habría correspondido
+          en Poniente.
+        </p>
+        <button id="start-btn" type="button">Comenzar el viaje</button>
+      </div>
+      <div class="scroll-hint" aria-hidden="true">
+        <span></span>
+      </div>
+    </section>
+
+    <section id="questionnaire" aria-live="polite">
+      <div class="quiz-frame">
+
+        <div class="progress-track" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progress-track">
+          <svg class="flame-progress" viewBox="0 0 320 40" preserveAspectRatio="none">
+            <defs>
+              <linearGradient id="flameGradient" x1="0" y1="0" x2="1" y2="0">
+                <stop offset="0%" stop-color="#7A1220"/>
+                <stop offset="45%" stop-color="#C9A227"/>
+                <stop offset="75%" stop-color="#6f95a3"/>
+                <stop offset="100%" stop-color="#dfeff5"/>
+              </linearGradient>
+              <clipPath id="progressClip">
+                <rect id="progress-clip-rect" x="0" y="0" width="0" height="40" />
+              </clipPath>
+            </defs>
+            <path class="flame-path-bg" d="M4 30 Q 40 10, 70 26 T 140 24 T 210 28 T 280 22 T 316 30" />
+            <path class="flame-path-fg" d="M4 30 Q 40 10, 70 26 T 140 24 T 210 28 T 280 22 T 316 30" clip-path="url(#progressClip)" />
+          </svg>
+          <span class="progress-label" id="progress-label">Pregunta 1 de 7</span>
+        </div>
+
+        <div id="question-stage"></div>
+
+      </div>
+    </section>
+
+    <section id="result">
+      <div class="result-frame" id="result-frame">
+        <p class="eyebrow" id="result-eyebrow">Tu final</p>
+        <h2 id="result-title">—</h2>
+        <div class="result-media" id="result-media"></div>
+        <p class="result-copy" id="result-copy"></p>
+        <button id="restart-btn" type="button">Reescribirlo de nuevo</button>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>Historia interactiva en clase de 4Geeks. NO somos colaboradores de HBO.</p>
+  </footer>
+
+  <script type="module" src="JSTronos.js"></script>
+</body>
+</html>
