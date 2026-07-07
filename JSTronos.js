@@ -1,12 +1,7 @@
 // ---------------------------------------------------------------
 // Reescribe el final — lógica del cuestionario
 // ---------------------------------------------------------------
-// Cómo añadir tus propios vídeos o imágenes:
-// En el objeto ENDINGS de más abajo, cambia la propiedad `media`
-// de cada final. Por defecto se usa una ilustración SVG generada
-// aquí mismo (sin material con derechos de autor). Para usar tu
-// propio archivo, coloca el fichero en /assets/endings/ y cambia:
-//
+
 //   media: { type: "svg", render: sigilFuego }
 // por:
 //   media: { type: "video", src: "/assets/endings/fuego.mp4" }
